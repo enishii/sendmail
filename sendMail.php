@@ -8,7 +8,7 @@ require 'SMTP.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-class myPHPMailer extends PHPMailer {
+class sendMail extends PHPMailer {
 
 		protected $user = 'username';		// SMTP username
 		protected $passw = 'password'; 					// SMTP password
